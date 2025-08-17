@@ -1,23 +1,7 @@
-# Wordle — JavaFX (IBM 80s White Theme)
+Immediate comfort: Put on music that usually makes you feel good, take a warm shower or bath, or wrap yourself in something soft. Sometimes small physical comforts can provide a bit of relief when everything feels heavy.
+Get moving: Even a short walk outside, some stretching, or dancing to one song can shift your energy. Movement helps process difficult emotions and often provides a small mood boost.
 
-A simple Wordle-like clone built with JavaFX. The target 5-letter word changes every hour (UTC).
+Connect with someone: Text or call a friend, family member, or anyone who cares about you. Sometimes just hearing another voice or sharing what you're going through can lighten the load.
+Do something small for yourself: Make your favorite drink, watch funny videos, work on a puzzle, or do any small activity that usually brings you some joy.
 
-## Features
-- 5-letter word, 6 guesses
-- Colors: green (correct spot), yellow (in word), gray (not in word)
-- Word changes every hour deterministically (UTC) — no server needed
-- Retro white IBM-inspired visual style
-
-## Run
-Using the Gradle wrapper:
-
-```powershell
-# From the repository root
-./gradlew.bat :app:run
-```
-
-If you see JavaFX errors, ensure JDK 21 is used. The wrapper reports the JVM in use when it starts.
-
-## Notes
-- The wordlist is embedded in `WordleApp.java` as `WordRepository`.
-- The word resets at the top of the hour automatically and clears the board.
+Remember this feeling will pass: Desperation feels permanent when you're in it, but difficult emotions do shift and change. You've gotten through hard times before.
