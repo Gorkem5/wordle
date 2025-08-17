@@ -1,0 +1,44 @@
+/* IBM-esque white theme */
+.root {
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Consolas", "Courier New", monospace;
+}
+
+.title {
+    -fx-text-fill: #0b0b0b;
+    -fx-font-size: 28px;
+    -fx-font-weight: 900;
+    -fx-border-color: #0b0b0b;
+    -fx-border-width: 0 0 4 0;
+    -fx-padding: 8 0 12 0;
+}
+
+.status {
+    -fx-text-fill: #0b0b0b;
+    -fx-font-size: 12px;
+    -fx-opacity: 0.85;
+}
+
+.text-field.input {
+    -fx-background-color: white;
+    -fx-text-fill: #111111;
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-padding: 6 10 6 10;
+}
+
+.tile {
+    -fx-fill: #ffffff;
+    -fx-stroke: #000000;
+    -fx-stroke-width: 2px;
+}
+
+.tile-text {
+    -fx-text-fill: #000000;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.tile-container.green .tile { -fx-fill: #b7f0c1; -fx-stroke: #0b0; }
+.tile-container.yellow .tile { -fx-fill: #fff1b3; -fx-stroke: #cc9a00; }
+.tile-container.gray .tile { -fx-fill: #e5e7eb; -fx-stroke: #9ca3af; }
